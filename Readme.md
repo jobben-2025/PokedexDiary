@@ -44,14 +44,15 @@ FR014	Personal Notes	Allow adding notes to each Pokémon; persist the note on th
 
 
 
-PRJ Links:
+
+## PRJ Links:
 
 
-Github:
+# Github:
     https://github.com/jobben-2025/PokedexDiary
 
-Github Pages (Website):
+# Github Pages (Website):
+    https://jobben-2025.github.io/PokedexDiary/
 
-
-Trello:
+# Trello:
     https://trello.com/b/SdYPHx8E/pokedexdiary
