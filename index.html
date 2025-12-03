@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="./main.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex Diary - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Homepage</a></li>
-                <li><a href="pokedex.html">Pokedex</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="pokedex.html">Pokédex</a>
+  </nav>
+
+  <h1>Pokédex Diary</h1>
+
+  <!-- Search Bar -->
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search by name or ID" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Pokémon List -->
+  <div id="pokemonList"></div>
+
+  <script src="main.js"></script>
 </body>
 </html>
